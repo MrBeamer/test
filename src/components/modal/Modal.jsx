@@ -25,7 +25,7 @@ export default function Modal({ onShowModal, onAddToList }) {
     <div className="modal">
       <div className="form">
         <form>
-          <h2 className="form__title">Neuer Bewerber hinzufügen</h2>
+          <h2 className="form__title">Neuen Bewerber hinzufügen</h2>
           <div className="form__label">
             <label htmlFor="input" className="form-label__title">
               Name

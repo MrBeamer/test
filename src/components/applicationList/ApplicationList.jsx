@@ -2,7 +2,7 @@ import "./applicationList.scss";
 import ApplicationItem from "../applicationItem/ApplicationItem";
 import Heading from "../heading/Heading";
 
-export default function ApplicationList({ title, list }) {
+export default function ApplicationList({ title, list, onDeleteCandidate }) {
   function nextSection(data) {
     if (data.status === "bewerber") {
       data.status = "interview";
@@ -23,6 +23,7 @@ export default function ApplicationList({ title, list }) {
             key={index}
             data={data}
             onNextSection={nextSection}
+            onDeleteCandidate={onDeleteCandidate}
           />
         );
       })}

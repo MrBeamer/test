@@ -4,6 +4,7 @@
   margin-bottom: 24px;
   padding: 31px;
   min-height: 220.05px;
+  position: relative;
 
   &.default {
     border-top: 5px solid #d81b5d;
@@ -57,5 +58,15 @@
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
+  }
+
+  &__btn--delete {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #d81b5d;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
   }
 }

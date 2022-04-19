@@ -20,13 +20,13 @@ function App() {
     setCandidate({ ...candidate, title: "", category: "Feature", detail: "" });
   }
 
-  // function deleteCanidate(event, candidate) {
-  //   event.preventDefault();
-  //   const newList = list.filter((item) => item !== candidate);
-  //   setList(newList);
-  //   console.log(candidate);
-  //   console.log(list);
-  // }
+  function deleteCandidate(candidate) {
+    // event.preventDefault();
+    const newList = list.filter((item) => item !== candidate);
+    setList(newList);
+    console.log(candidate);
+    console.log(list);
+  }
 
   const [bewerber, setBewerber] = useState([]);
   const [interview, setInterview] = useState([]);
@@ -50,6 +50,7 @@ function App() {
         akzeptiertList={akzeptiert}
         listTitles={data.listTitles}
         onShowModal={handleShowModal}
+        onDeleteCandidate={deleteCandidate}
       />
       {showModal && (
         <Modal onShowModal={handleShowModal} onAddToList={addToList} />
