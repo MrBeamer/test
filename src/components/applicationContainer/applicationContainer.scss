@@ -1,0 +1,23 @@
+.application-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+  column-gap: 35px;
+  flex-wrap: wrap;
+
+  &__btn {
+    color: #d81b5d;
+    border: none;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
+
+.application-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-width: 350px;
+}

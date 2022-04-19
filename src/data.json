@@ -1,0 +1,61 @@
+{
+  "listTitles": ["Bewerber", "Interview", "Akzeptiert"],
+
+  "candidates": [
+    {
+      "id": 1,
+      "fullName": "Tony Stark",
+      "position": "Praktikum Frontend Development - TypeScript und React",
+      "answer": "Key answer to a very important question",
+      "email": "beamer@gmail.com",
+      "appendix": ["lebenslauf", "Anschreiben", "zertifikate"],
+      "status": "akzeptiert"
+    },
+    {
+      "id": 2,
+      "fullName": "Lois Lane",
+      "position": "Praktikum Frontend Development - TypeScript und React",
+
+      "answer": "Key answer to a very important question",
+      "email": "beamer@gmail.com",
+      "appendix": ["lebenslauf", "Anschreiben", "zertifikate"],
+      "status": "interview"
+    },
+    {
+      "id": 3,
+      "fullName": "Bruce Banner",
+      "position": "Praktikum Frontend Development - TypeScript und React",
+      "answer": "Key answer to a very important question",
+      "email": "beamer@gmail.com",
+      "appendix": ["lebenslauf", "Anschreiben", "zertifikate"],
+      "status": "akzeptiert"
+    },
+    {
+      "id": 4,
+      "fullName": "Peter Parker",
+      "position": "Praktikum Frontend Development - TypeScript und React",
+      "answer": "Key answer to a very important question",
+      "email": "beamer@gmail.com",
+      "appendix": ["lebenslauf", "Anschreiben", "zertifikate"],
+      "status": "bewerber"
+    },
+    {
+      "id": 5,
+      "fullName": "Frank Castle",
+      "position": "Praktikum Frontend Development - TypeScript und React",
+      "answer": "Key answer to a very important question",
+      "email": "beamer@gmail.com",
+      "appendix": ["lebenslauf", "Anschreiben", "zertifikate"],
+      "status": "bewerber"
+    },
+    {
+      "id": 6,
+      "fullName": "Joe Frost",
+      "position": "Praktikum Frontend Development - TypeScript und React",
+      "answer": "Key answer to a very important question",
+      "email": "beamer@gmail.com",
+      "appendix": ["lebenslauf", "Anschreiben", "zertifikate"],
+      "status": "interview"
+    }
+  ]
+}
