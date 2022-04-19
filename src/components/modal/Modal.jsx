@@ -30,7 +30,7 @@ export default function Modal({ onShowModal, onAddToList }) {
             <label htmlFor="input" className="form-label__title">
               Name
             </label>
-            <p className="form__label__subtitle">Vor- und Nachnamen</p>
+            <p className="form__label__subtitle">Vor- und Nachname</p>
           </div>
           <input
             onChange={handleInputChange}
