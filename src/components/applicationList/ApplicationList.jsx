@@ -8,8 +8,9 @@ export default function ApplicationList({ title, list }) {
       data.status = "interview";
     } else if (data.status === "interview") {
       data.status = "akzeptiert";
+    } else {
+      data.status = "bewerber";
     }
-    console.log(data);
   }
 
   return (

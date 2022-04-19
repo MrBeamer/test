@@ -18,9 +18,15 @@ function App() {
     event.preventDefault();
     setList((prevList) => [candidate, ...prevList]);
     setCandidate({ ...candidate, title: "", category: "Feature", detail: "" });
-    console.log(candidate);
-    console.log(list);
   }
+
+  // function deleteCanidate(event, candidate) {
+  //   event.preventDefault();
+  //   const newList = list.filter((item) => item !== candidate);
+  //   setList(newList);
+  //   console.log(candidate);
+  //   console.log(list);
+  // }
 
   const [bewerber, setBewerber] = useState([]);
   const [interview, setInterview] = useState([]);
