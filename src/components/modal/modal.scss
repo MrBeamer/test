@@ -56,7 +56,7 @@
     }
   }
 
-  &__btn--small {
+  &__btn {
     border: none;
     border-radius: 10px;
     color: #fff;
@@ -67,22 +67,15 @@
     padding: 12px 24px;
     text-align: center;
     text-decoration: none;
+  }
+
+  &__btn--small {
     width: 93px;
     background-color: #3a4374;
   }
 
   &__btn--big {
-    border: none;
     background-color: #d81b5d;
-    color: #fff;
-    border-radius: 10px;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 700;
-    height: 44px;
-    padding: 12px 24px;
-    text-align: center;
-    text-decoration: none;
     width: 158px;
   }
 }

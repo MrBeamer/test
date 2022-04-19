@@ -49,11 +49,11 @@ export default function Modal({ onShowModal, onAddToList }) {
             name="position"
           />
           <div className="form__flex-container">
-            <button className="form__btn--small" onClick={onShowModal}>
+            <button className="btn form__btn--small" onClick={onShowModal}>
               Zurück
             </button>
             <button
-              className="form__btn--big"
+              className="btn form__btn--big"
               onClick={(event) => {
                 onAddToList(event, candidate, setCandidate);
               }}
