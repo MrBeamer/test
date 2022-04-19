@@ -10,7 +10,7 @@ export default function ApplicationContainer({
   return (
     <div className="application-container">
       <div className="application-wrapper">
-        <ApplicationList title="Interview" list={bewerberList} />
+        <ApplicationList title="Bewerber" list={bewerberList} />
         <button className="application-container__btn" onClick={onShowModal}>
           +
         </button>
