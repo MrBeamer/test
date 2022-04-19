@@ -59,6 +59,7 @@ export default function Modal({ onShowModal, onAddToList }) {
               className="form__btn  form__btn--big"
               onClick={(event) => {
                 onAddToList(event, candidate, setCandidate);
+                onShowModal();
               }}
             >
               Hinzufügen

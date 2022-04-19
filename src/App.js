@@ -9,23 +9,24 @@ function App() {
   const [list, setList] = useState(data.candidates);
   const [showModal, setShowModal] = useState(false);
 
-  function handleShowModal(event) {
-    event.preventDefault();
+  function handleShowModal() {
     setShowModal((prevState) => !prevState);
   }
 
   function addToList(event, candidate, setCandidate) {
     event.preventDefault();
     setList((prevList) => [candidate, ...prevList]);
-    setCandidate({ ...candidate, title: "", category: "Feature", detail: "" });
+    setCandidate({
+      ...candidate,
+      fullName: "",
+      position: "",
+      status: "bewerber",
+    });
   }
 
   function deleteCandidate(candidate) {
-    // event.preventDefault();
     const newList = list.filter((item) => item !== candidate);
     setList(newList);
-    console.log(candidate);
-    console.log(list);
   }
 
   const [bewerber, setBewerber] = useState([]);

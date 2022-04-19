@@ -14,7 +14,7 @@ export default function ApplicationItem({
           className="application-item__btn--delete"
           onClick={() => onDeleteCandidate(data)}
         >
-          <i class="fa fa-minus"></i>
+          <i className="fa fa-minus"></i>
         </button>
       </div>
       <h2 className="application-item__title">{data.fullName}</h2>
