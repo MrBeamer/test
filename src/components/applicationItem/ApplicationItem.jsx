@@ -15,12 +15,6 @@ export default function ApplicationItem({ data, onNextSection }) {
       >
         >>>
       </button>
-      <button
-        className="application-item__btn"
-        onClick={() => onNextSection(data)}
-      >
-        >>>
-      </button>
     </div>
   );
 }
