@@ -13,6 +13,12 @@ function App() {
     setShowModal((prevState) => !prevState);
   }
 
+  useEffect(() => {
+    showModal
+      ? document.body.classList.add("modalOpen")
+      : document.body.classList.remove("modalOpen");
+  }, [showModal]);
+
   function addToList(event, candidate, setCandidate) {
     event.preventDefault();
     setList((prevList) => [candidate, ...prevList]);
